@@ -30,12 +30,23 @@ def occurrenciasf(b):
     maioresvalores = sorted(dict.items(), key=lambda x:x[1], reverse=True,)[:10]
     return maioresvalores
 
-def removepontuacao(arg):
+def limparstring(arg):
     str = arg.lower()
-    new1 = re.sub("[áàãâ]", "a",str)
-    new2 = re.sub("[õô]", "o", new1)
-    new3 = re.sub("ç", "c", new2)
-    lista = re.split(", |,|:| |\n", new3)
+    a = re.sub("[áàãâ]", "a",str)
+    o = re.sub("[õôòó]", "o", a)
+    c = re.sub("ç", "c", o)
+    i = re.sub("[íìî]", "i", c)
+    e = re.sub("[éèê]", "e", i)
+    u = re.sub("[úùû]", "u", e)
+    lista = re.split(", |,|:| |\n", u)
+    string = ' '.join(lista)
+    return string
+
+def removerpotunacaointroduzida(arg, pontuacoes, sub):
+    str = arg.lower()
+    form = "["+pontuacoes+"]"
+    a = re.sub(form, sub,str)
+    lista = re.split(", |,|:| |\n", a)
     string = ' '.join(lista)
     return string
 
@@ -80,7 +91,10 @@ print(numerosPares(a))
 nomeFicheiroInverso(b)
 print(occurrenciasf(b))
 texto = input("Introduza uma texto:")
-print(removepontuacao(texto))
+print(limparstring(texto))
+pontuacao = input("Introduza caracteres a limpar:")
+sub = input("Substituir caracteres com:")
+print(removerpotunacaointroduzida(texto, pontuacao, sub))
 print(reverse(texto))
 print(numerodeA(texto))
 print(numerodevogais(texto))
