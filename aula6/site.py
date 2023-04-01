@@ -11,12 +11,4 @@ def home():
     return render_template('home.html', title ="Welcome",)
 
 
-
-
-
-
 app.run(host="localhost", port=4002, debug=True)
-'''@app.route('/api/termos')
-def termos_api():
-    jsonFile = json.load(dbFile)
-    return json.dump(jsonFile) engenharia hegua elefante'''
