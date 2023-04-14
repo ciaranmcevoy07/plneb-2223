@@ -43,18 +43,5 @@
 <literallayout>
 </literallayout>
       <informaltable>
-        <tgroup cols="2">
-          <colspec align="left" />
-          <colspec align="left" />
-          <tbody>
-            <row>
-              <entry>
-                <para>
-                  Health Care Personnel
-                </para>
-              </entry>
-              <entry>
-                <para>
-                  Personal del cuidado de la salud
-                </para>
+       
            

@@ -3,6 +3,12 @@ import re
 
 file = open('sdsds.xml', 'r', encoding="utf-8")
 text = file.read().splitlines()
+text2 = file.read()
+
+filtered_file = open('New_CIH_Bilingual_Medical_Glossary_English_Spanish.xml', 'w', encoding="utf-8")
+filtered_file.write(text2)
+new_text = re.sub(r'<literallayout>(\n\s*(.*))*</literallayout>', ' ', text2)
+filtered_file.write(new_text)
 lista1 = []
 lista2 = []
 for i in text:
@@ -15,6 +21,7 @@ for a in lista1:
 print(lista2)
     
 file.close()
+filtered_file.close()
 
 
 
