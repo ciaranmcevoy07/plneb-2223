@@ -1,0 +1,614 @@
+Cabea
+Fronte
+Occipital
+Tmpora
+Orelha
+Face
+Olho
+Bochecha
+Nariz
+Boca
+Mento
+Pescoo
+Tronco
+Trax
+Peito
+Abdome
+Pelve
+Dorso
+Membro superior
+Cngulo do membro superior
+Axila
+Brao
+Cotovelo
+Antebrao
+Mo
+Carpo
+Metacarpo
+Palma
+Dorso da mo
+Dedos da mo
+Membro inferior
+Cngulo do membro inferior
+Ndegas
+Quadril
+Fmur
+Joelho
+Regio popltea
+Perna
+Sura
+P
+Tarso
+Calcanhar
+Metatarso
+Planta
+Dorso do p
+Dedos do p
+Cavidades
+Cavidade do crnio
+Cavidade torcica
+Cavidade abdominoplvica
+Cavidade abdominal
+Cavidade plvica
+Vertical
+Horizontal
+Mediano
+Coronal
+Sagital
+Direito
+Esquerdo
+Intermdio
+Medial
+Lateral
+Anterior
+Posterior
+Ventral
+Dorsal
+Frontal
+Occipital
+Superior
+Inferior
+Cranial
+Caudal
+Rostral
+Apical
+Basal
+Basilar
+Mdio
+Transverso
+Transversal
+Longitudinal
+Axial
+Externo
+Interno
+Luminal
+Super cial
+Profundo
+Proximal
+Distal
+Central
+Perifrico
+Radial
+Ulnar
+Fibular
+Tibial
+Palmar
+Plantar
+Flexor
+Extensor
+Linha mediana anterior
+Linha esternal
+Linha paraesternal
+Linha medioclavicular
+Linha mamilar
+Linha axilar anterior
+Linha axilar mdia
+Linha axilar posterior
+Linha escapular
+Linha paravertebral
+Linha mediana posterior
+Planos frontais
+Planos horizontais
+Planos sagitais
+Plano mediano
+Planos paramedianos
+Planos transversos
+Plano transpilrico
+Plano subcostal
+Plano supracristal
+Plano intertubercular
+Plano interespinal
+Regies da cabea
+Regio frontal
+Regio parietal
+Regio occipital
+Regio temporal
+Regio auricular
+Regio mastidea
+Regio facial
+Sulco suprapalpebral
+Regio orbital
+Sulco infrapalpebral
+Regio infraorbital
+Regio da bochecha
+Regio parotideomassetrica
+Fossa retromandibular
+Regio zigomtica
+Regio nasal
+Sulco nasolabial
+Regio oral
+Sulco mentolabial
+Regio mentual
+Regies cervicais
+Regio cervical anterior (trgono cervical ante
+rior)
+Trgono submandibular
+Trgono cartico
+Trgono muscular
+Trgono submentual
+Regio esternocleidomastidea
+Fossa supraclavicular menor
+Regio cervical lateral (trgono cervical late
+ral)
+Trgono omoclavicular
+Fossa supraclavicular maior
+Regio cervical posterior
+Regies torcicas anteriores e laterais
+Regio presternal
+Fossa infraclavicular
+Trgono clavipeitoral
+Regio peitoral
+Regio peitoral lateral
+Regio mamria
+Regio inframamria
+Regio axilar
+Fossa axilar
+Regies abdominais
+Hipocndrio
+Epigstrio (fossa epigstrica)
+Regio lateral
+Regio umbilical (umbigo)
+Regio inguinal
+Regio pbica (hipogstrio)
+Regies dorsais
+Regio vertebral
+Regio sacral
+Fovola coccgea
+Regio escapular
+Regio infraescapular
+Regio lombar
+Regio perineal
+Regio anal
+Regio urogenital
+Regies do membro superior
+Regio deltidea
+Regio braquial
+Regio braquial anterior
+Regio braquial posterior
+Regio cubital
+Regio cubital anterior
+Fossa cubital
+Regio cubital posterior
+Regio antebraquial
+Regio antebraquial anterior
+Regio antebraquial posterior
+Margem radial
+Margem ulnar
+Regio da mo
+Regio carpal
+Regio carpal anterior
+Regio carpal posterior
+Regio dorsal da mo
+Palma
+Eminncia tenar
+Eminncia hipotenar
+Regio metacarpal
+Dedos da mo
+Polegar
+Indicador
+Dedo mdio
+Dedo anular
+Dedo mnimo
+Face palmar dos dedos
+Face dorsal dos dedos
+Regies do membro inferior
+Regio gltea
+Fenda intergltea
+Sulco infraglteo
+Regio do quadril
+Regio da coxa
+Regio femoral anterior
+Trgono femoral
+Regio femoral posterior
+Regio do joelho
+Regio genicular anterior
+Regio genicular posterior
+Fossa popltea
+Regio crural
+Regio crural anterior
+Regio crural posterior
+Regio sural
+Regio talocrural anterior
+Regio talocrural posterior
+Regio retromaleolar lateral
+Regio retromaleolar medial
+Regies do p
+Regio calcnea
+Dorso do p
+Planta
+Margem lateral do p
+Margem medial do p
+Arco longitudinal do p
+Parte lateral
+Parte medial
+Arco transverso proximal do p
+Arco transverso distal do p
+Regio tarsal
+Regio metatarsal
+Dedos do p
+Hlux
+Segundo (II) terceiro (III) e quarto (IV) dedos do p
+Dedo mnimo
+Face plantar dos dedos
+Face dorsal dos dedos
+Parte ssea
+Substncia cortical
+Substncia compacta
+Substncia esponjosa
+Parte cartilagnea
+Parte membrancea
+Peristeo
+Pericndrio
+Esqueleto axial
+Esqueleto apendicular
+Osso longo
+Osso curto
+Osso plano
+Osso irregular
+Osso pneumtico
+Osso sesamide
+Di se
+Ep se
+Cartilagem epi sial
+Lmina epi sial
+Linha epi sial
+Met se
+Ap se
+Tber
+Tubrculo
+Tuberosidade
+Eminncia
+Processo
+Cndilo
+Epicndilo
+Crista
+Linha
+Incisura
+Fossa
+Sulco
+Face articular
+Cavidade medular
+Endsteo
+Medula ssea amarela
+Medula ssea vermelha
+Forame nutrcio
+Canal nutrcio
+Centro de ossi cao
+Primrio
+Secundrio
+Articulaes sseas
+Sinartrose
+Articulao  brosa
+Articulao cartilagnea
+Sinostose
+Articulao sinovial
+Face articular
+Cavidade articular
+Fossa articular
+Cabea articular
+Lbio articular
+Cpsula articular
+Disco articular
+Menisco articular
+Ligamentos
+Recesso articular
+Articulao simples
+Articulao composta
+Articulao plana
+Articulao cilndrica
+Articulao bicondilar
+Articulao selar
+Articulao elipsidea
+Articulao esferidea
+An artrose
+Abduo
+Aduo
+Rotao lateral
+Rotao medial
+Circunduo
+Flexo
+Extenso
+Pronao
+Supinao
+Oposio
+Reposio
+Cabea
+Ventre
+Insero
+Origem
+Ponto  xo
+Ponto mvel
+Msculo fusiforme
+Msculo plano
+Msculo reto
+Msculo triangular
+Msculo quadrado
+Msculo biventre
+Msculo com dois ventres
+Msculo bceps
+Msculo trceps
+Msculo quadrceps
+Msculo semipeniforme
+Msculo peniforme
+Msculo multipeniforme
+Msculo orbicular
+Msculo cutneo
+Msculo abdutor
+Msculo adutor
+Msculo rotador
+Msculo  exor
+Msculo extensor
+Msculo pronador
+Msculo supinador
+Msculo oponente
+Msculo es ncter
+Msculo dilatador
+Compartimento
+Fscia
+Fscia da cabea e do pescoo
+Fscia do tronco
+Fscia parietal
+Fscia extraserosal
+Fscia visceral
+Fscia dos membros
+Fscia dos msculos
+Epimsio
+Perimsio
+Endomsio
+Tendo
+Tendo intermdio
+Interseo tendnea
+Aponeurose
+Arco tendneo
+Trclea muscular
+Bolsa sinovial
+Bolsa subcutnea
+Bolsa submuscular
+Bolsa subfascial
+Bolsa subtendnea
+Bainha do tendo
+Estrato  broso
+Estrato sinovial
+Mesotendo
+bainha
+sinovial
+Vaso sangneo
+Anastomose arteriolovenular
+Artria
+Artria nutrcia
+Arterola
+Crculo arterial
+Crculo vascular
+Cisterna
+Sangue
+Plexo vascular
+Plexo venoso
+Plexo arterial
+Rede admirvel
+Plexo vascular articular
+Rede venosa
+Seio venoso
+Tnica externa
+Tnica ntima
+Tnica mdia
+Valva
+Vlvula
+Cspide
+Vlvula venosa
+Vaso anastomtico
+Vaso capilar
+Vaso colateral
+Vaso sinuside
+Vasos dos vasos
+Vasos dos nervos
+Veia
+Veia acompanhante
+Veia cutnea
+Veia emissria
+Veia nutrcia
+Veia profunda
+Veia super cial
+Vnula
+Vaso linftico
+Vaso linftico super cial
+Vaso linftico profundo
+Plexo linftico
+Vlvula linftica
+Linfa
+Capilar linftico
+Rede linftica
+Neuro bra
+Neurnio
+Pericrio
+Sinapse
+Neurglia
+Substncia cinzenta
+Ncleo
+Ncleo dos nervos cranianos
+Coluna
+Lmina
+Substncia branca
+Funculo
+Trato
+Fascculo
+Comissura
+Lemnisco
+Fibra
+Fibra de associao
+Fibra comissural
+Fibra de projeo
+Decussao
+Estria
+Formao reticular
+Epndima
+CEREBELO
+Fissuras do cerebelo
+Folhas do cerebelo
+Hemisfrio do cerebelo (H IIH X)
+Valcula do cerebelo
+Verme do cerebelo (IX)
+Telencfalo O CREBRO
+Plio
+Giros do crebro
+Lobos do crebro
+Sulcos do crebro
+Fissura longitudinal do crebro
+Fissura transversa do crebro Fissura teledien
+ceflica
+Fossa lateral do crebro
+Margem superior
+Margem nferomedial
+Margem nferolateral
+Gnglio
+Cpsula do gnglio
+Estroma do gnglio
+Gnglio craniospinal sensitivo
+Gnglio sensitivo de nervo espinal
+Gnglio sensitivo de nervo craniano
+Gnglio visceral
+Fibras nervosas prganglionares
+Fibras nervosas psganglionares
+Gnglio simptico
+Gnglio parassimptico
+Nervo
+Endoneuro
+Perineuro
+Epineuro
+Fibras nervosas aferentes
+Fibras nervosas eferentes
+Fibras nervosas somticas
+Fibras nervosas viscerais
+Nervo motor
+Nervo sensitivo
+Nervo misto
+Ramo cutneo
+Ramo articular
+Ramo muscular
+Nervo espinal
+Radculas
+Raiz anterior
+Raiz posterior
+Tronco do nervo espinal
+Ramo menngeo
+Ramo comunicante
+Ramo anterior
+Ramo posterior
+Cauda eqina
+Plexo nervoso espinal
+Nervo craniano
+Nervo visceral
+Ramo visceral
+Plexo autnomo
+Plexo visceral
+Plexo vascular
+Plexo periarterial
+Nervos dos vasos
+Neurocrnio
+Viscerocrnio
+Condrocrnio
+Desmocrnio
+Peristeo externo do crnio
+Norma frontal
+Fronte
+Nsio
+Norma vertical
+Occipcio
+Vrtice
+Bregma
+Norma occipital
+Lambda
+nio
+Norma lateral
+Ptrio
+Astrio
+Gnio
+Fossa temporal
+Arco zigomtico
+Fossa infratemporal
+Fossa pterigopalatina
+Fissura pterigomaxilar
+Fontculos do crnio
+Fontculo anterior
+Fontculo posterior
+Fontculo nterolateral
+Fontculo psterolateral
+Calvria
+Lmina externa
+Dploe
+Canais diplicos
+Lmina interna
+Sulco do seio sagital superior
+Fovolas granulares (Pacchioni)
+Sulcos venosos
+Sulcos arteriais
+Osso sutural Osso articular inconstante nas suturas
+do crnio
+Base do crnio
+Base interna do crnio
+Fossa anterior do crnio
+Impresses dos giros
+Fossa mdia do crnio
+Fossa posterior do crnio
+Fissura esfenopetrosa
+Fissura petroccipital
+Base externa do crnio
+Forame jugular
+Forame lacerado
+Palato sseo
+Canal palatino maior
+Forame palatino maior
+Forames palatinos menores
+Fossa incisiva
+Canal incisivo
+Forames incisivos
+Toro palatino
+Canal palatovaginal
+Canal vomerovaginal
+Canal vomerorrostral
+rbita
+Cavidade orbital
+dito orbital
+Margem orbital
+Parede superior
+Parede inferior
+Parede lateral
+Parede medial
+Forame etmoidal anterior
+Forame etmoidal posterior
+Sulco lacrimal
+Fossa do saco lacrimal
+Fissura orbital superior
+Fissura orbital inferior
+Canal lacrimonasal
+Cavidade nasal ssea
+Septo nasal sseo
+Abertura piriforme
+Meato nasal superior
+Meato nasal mdio
+Meato nasal Inferior
+stio do canal lacrimonasal
+Meato nasal comum
+Recesso esfenoetmoidal
+Meato nasofarngeo
+Cano
+Forame esfenopalatino
