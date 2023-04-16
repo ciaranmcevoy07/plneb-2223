@@ -91,6 +91,7 @@ for i in elementos_juntos:
         c = re.sub('ﬁ', 'fi', i)
         new_i = re.sub(r"[^a-zA-Z\s\(\)áàâãçéèêíìîóòôõúùûÁÀÂÄÃÉÈÍÌÎÓÒÔÕÚÙ\-\<\>\"]", '', c)
         clean_list3.append(new_i)
+print(clean_list3)
 
 file4 = open('primeiroteste', 'w', encoding="utf-8")
 for i in clean_list3:
