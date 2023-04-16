@@ -53,9 +53,9 @@ for i in new_frases:
             new_elem = filtered_linha1 + linha2
             new_i = re.sub(r'(?<=<b>)(.*?)(?=</b>)|(?<=<i>)(.*?)(?=</i>)', new_elem, i)
             c = re.sub('ﬁ', 'fi', new_i)
+            c = re.sub(r"[\*\.]", '', c)
             c = re.sub('\[', '', c)
             c = re.sub('\]', '', c)
-            c = re.sub(r"[\*\.]", '', c)
             new_file.write(c + '\n')
         else:
             match3 = re.search(r'(?<=<b>)(.*?)(?=</b>)|(?<=<i>)(.*?)(?=</i>)', new_frases[count-1])
@@ -64,21 +64,21 @@ for i in new_frases:
                 traco_match = re.search(r'^.*-\s*$', linha3)
                 if traco_match ==None:
                     c = re.sub('ﬁ', 'fi', i)
+                    c = re.sub(r"[\*\.]", '', c)
                     c = re.sub('\[', '', c)
                     c = re.sub('\]', '', c)
-                    c = re.sub(r"[\*\.]", '', c)
                     new_file.write(c + '\n')
             else:
                 c = re.sub('ﬁ', 'fi', i)
+                c = re.sub(r"[\*\.]", '', c)
                 c = re.sub('\[', '', c)
                 c = re.sub('\]', '', c)
-                c = re.sub(r"[\*\.]", '', c)
                 new_file.write(c + '\n')
     else:
         c = re.sub('ﬁ', 'fi', i)
+        c = re.sub(r"[\*\.]", '', c)
         c = re.sub('\[', '', c)
         c = re.sub('\]', '', c)
-        c = re.sub(r"[\*\.]", '', c)
         new_file.write(c + '\n')
 new_file.close()
 file.close()
@@ -134,9 +134,7 @@ for i in clean_list3:
                             if match and secondmatch:
                                 break
                     string = re.sub(r"[^a-zA-Z\s\(\)áàâãçéèêíìîóòôõúùûÁÀÂÄÃÉÈÍÌÎÓÒÔÕÚÙ\-\.]", '', string)
-                    dict[i] = {
-                        "desc":string
-                    }
+                    dict[i] = string
                     string = ''
 json.dump(dict, json_file, ensure_ascii=False, indent=4)
 json_file.close()
