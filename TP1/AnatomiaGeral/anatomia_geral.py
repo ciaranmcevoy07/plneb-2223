@@ -89,7 +89,8 @@ file2.close()
 clean_list3 = []
 for i in elementos_juntos:
         c = re.sub('ﬁ', 'fi', i)
-        new_i = re.sub(r"[^a-zA-Z\s\(\)áàâãçéèêíìîóòôõúùûÁÀÂÄÃÉÈÍÌÎÓÒÔÕÚÙ\-\<\>\"]", '', c)
+        new_i = re.sub(r"[^a-zA-Z\s\(\)üáàâãçéèêíìîóòôõúùûÁÀÂÄÃÉÈÍÌÎÓÒÔÕÚÙ\-\<\>\"]", '', c)
+        new_i = re.sub("ﬂ", "fl", new_i)
         clean_list3.append(new_i)
 print(clean_list3)
 
@@ -114,6 +115,7 @@ for i in clean_list3:
                 match = re.match(r'[0-9]+', clean_frase_2)
                 if match:
                     print('1')
+                    dict[i] = ''
                 else:
                     n = pos
                     match = re.match(r'[0-9]+', clean_frase_2)
