@@ -53,6 +53,7 @@ for i in new_frases:
             new_elem = filtered_linha1 + linha2
             new_i = re.sub(r'(?<=<b>)(.*?)(?=</b>)|(?<=<i>)(.*?)(?=</i>)', new_elem, i)
             c = re.sub('ﬁ', 'fi', new_i)
+            c = re.sub("ﬂ", "fl", c)
             c = re.sub(r"[\*\.]", '', c)
             c = re.sub('\[', '', c)
             c = re.sub('\]', '', c)
@@ -64,18 +65,21 @@ for i in new_frases:
                 traco_match = re.search(r'^.*-\s*$', linha3)
                 if traco_match ==None:
                     c = re.sub('ﬁ', 'fi', i)
+                    c = re.sub("ﬂ", "fl", c)
                     c = re.sub(r"[\*\.]", '', c)
                     c = re.sub('\[', '', c)
                     c = re.sub('\]', '', c)
                     new_file.write(c + '\n')
             else:
                 c = re.sub('ﬁ', 'fi', i)
+                c = re.sub("ﬂ", "fl", c)
                 c = re.sub(r"[\*\.]", '', c)
                 c = re.sub('\[', '', c)
                 c = re.sub('\]', '', c)
                 new_file.write(c + '\n')
     else:
         c = re.sub('ﬁ', 'fi', i)
+        c = re.sub("ﬂ", "fl", c)
         c = re.sub(r"[\*\.]", '', c)
         c = re.sub('\[', '', c)
         c = re.sub('\]', '', c)
@@ -89,8 +93,8 @@ file2.close()
 clean_list3 = []
 for i in elementos_juntos:
         c = re.sub('ﬁ', 'fi', i)
+        c = re.sub("ﬂ", "fl", c)
         new_i = re.sub(r"[^a-zA-Z\s\(\)üáàâãçéèêíìîóòôõúùûÁÀÂÄÃÉÈÍÌÎÓÒÔÕÚÙ\-\<\>\"]", '', c)
-        new_i = re.sub("ﬂ", "fl", new_i)
         clean_list3.append(new_i)
 print(clean_list3)
 
@@ -104,41 +108,43 @@ string = ''
 dict = {}
 for i in clean_list3:
     for a in frases:
-        match2 = re.search(r"(<i>|<b>)(\s*)" + i +r"(\s*)(</i>|</b>)", a)
+        '''match2 = re.search(r"(<i>|<b>)(\s*)" + i +r"(\s*)(</i>|</b>)", a)'''
+        match2 = re.search(r'<b>|</b>|<i>|</i>', a)
         if match2:
-            pos = frases.index(a)
-            pos = pos +1
-            frase2 = re.search(r'(?<=>)(.*?)(?=<)', frases[pos])
-            if frase2:
-                frase_2 = frase2.group()
-                clean_frase_2 = frase_2.strip()
-                match = re.match(r'[0-9]+', clean_frase_2)
-                if match:
-                    print('1')
-                    dict[i] = ''
-                else:
-                    n = pos
+            if i in a:
+                pos = frases.index(a)
+                pos = pos +1
+                frase2 = re.search(r'(?<=>)(.*?)(?=<)', frases[pos])
+                if frase2:
+                    frase_2 = frase2.group()
+                    clean_frase_2 = frase_2.strip()
                     match = re.match(r'[0-9]+', clean_frase_2)
-                    secondmatch = re.match(r'</page>', frases[n])
-                    while match is None and secondmatch is None:
-                        traco = re.search(r'^.*-\s*$', clean_frase_2)
-                        if traco:
-                            new_clean_frase_2 = re.sub(r'-$', ' ', clean_frase_2)
-                            string = string + new_clean_frase_2
-                        else:
-                            string = string + clean_frase_2 + ' '
-                        n = n + 1
-                        frase2 = re.search(r'(?<=>)(.*?)(?=<)', frases[n])
-                        if frase2 is not None:
-                            frase_2 = frase2.group()
-                            clean_frase_2 = frase_2.strip()
-                            match = re.match(r'[0-9]+', clean_frase_2)
-                            secondmatch = re.match(r'</page>', frases[n])
-                            if match and secondmatch:
-                                break
-                    string = re.sub(r"[^a-zA-Z\s\(\)áàâãçéèêíìîóòôõúùûÁÀÂÄÃÉÈÍÌÎÓÒÔÕÚÙ\-\.]", '', string)
-                    dict[i] = string
-                    string = ''
+                    if match:
+                        print('1')
+                        dict[i] = ''
+                    else:
+                        n = pos
+                        match = re.match(r'[0-9]+', clean_frase_2)
+                        secondmatch = re.match(r'</page>', frases[n])
+                        while match is None and secondmatch is None:
+                            traco = re.search(r'^.*-\s*$', clean_frase_2)
+                            if traco:
+                                new_clean_frase_2 = re.sub(r'-$', ' ', clean_frase_2)
+                                string = string + new_clean_frase_2
+                            else:
+                                string = string + clean_frase_2 + ' '
+                            n = n + 1
+                            frase2 = re.search(r'(?<=>)(.*?)(?=<)', frases[n])
+                            if frase2 is not None:
+                                frase_2 = frase2.group()
+                                clean_frase_2 = frase_2.strip()
+                                match = re.match(r'[0-9]+', clean_frase_2)
+                                secondmatch = re.match(r'</page>', frases[n])
+                                if match and secondmatch:
+                                    break
+                        string = re.sub(r"[^a-zA-Z\s\(\)áàâãçéèêíìîóòôõúùûÁÀÂÄÃÉÈÍÌÎÓÒÔÕÚÙ\-\.]", '', string)
+                        dict[i] = string
+                        string = ''
 json.dump(dict, json_file, ensure_ascii=False, indent=4)
 json_file.close()
 
