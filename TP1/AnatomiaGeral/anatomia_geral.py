@@ -14,7 +14,7 @@ for i in new_list:
         match = re.search(r'<b>|</b>|<i>|</i>', i)
         if match == None:
             clean_list.append(i)
-
+print(clean_list)
 clean_list2 = []
 for i in clean_list:
     if len(i) != 1:
@@ -22,9 +22,15 @@ for i in clean_list:
         b = re.sub(r'\.', '', a)
         clean_list2.append(b)
 
+file4 = open('primeiroteste', 'w', encoding="utf-8")
+for i in clean_list2:
+    file4.write(i + "\n")
+file4.close()
+
 file = open('anatomia_geral.xml', 'r', encoding="utf-8")
 new_file = open('anatomia_geral_editado.xml', 'w', encoding="utf-8")
 new_frases = file.read().splitlines()
+
 elementos_juntos = []
 for i in clean_list2:
         a = re.search(r'^.*-\s*$', i)
@@ -32,7 +38,7 @@ for i in clean_list2:
         new_elem = ''
         if a:
             b = re.sub(r'-$', '', i)
-            new_elem = b + clean_list[count+1]
+            new_elem = b + clean_list2[count+1]
             elementos_juntos.append(new_elem)
         else:
             a = re.search(r'^.*-\s*$', clean_list2[count-1])
@@ -108,7 +114,7 @@ string = ''
 dict = {}
 for i in clean_list3:
     for a in frases:
-        '''match2 = re.search(r"(<i>|<b>)(\s*)" + i +r"(\s*)(</i>|</b>)", a)'''
+        'match2 = re.search(r"(<i>|<b>)(\s*)" + i +r"(\s*)(</i>|</b>)", a)'
         match2 = re.search(r'<b>|</b>|<i>|</i>', a)
         if match2:
             if i in a:

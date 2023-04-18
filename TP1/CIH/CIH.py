@@ -22,8 +22,7 @@ text = re.sub(r'(.*)(page)(.*)', '', text, flags=re.MULTILINE)
 text = re.sub(r'(.*)(pdf2xml)(.*)', '', text, flags=re.MULTILINE)
 text = re.sub(r'(.*)(xml)(.*)', '', text, flags=re.MULTILINE)
 text = re.sub(r'(.*)(<i>)(.*)', '', text, flags=re.MULTILINE)
-text = re.sub(r'^\s*$', '*', text, flags=re.MULTILINE)
-text = re.sub(r'\*{2}', '*', text, flags=re.MULTILINE)
+text = re.sub(r'\n\s*\n', '\n', text)
 file1.write(text)
 file1.close()
 file2 = open('CIH_Editado.xml', 'r', encoding="utf-8")
@@ -45,48 +44,61 @@ for i in text2:
                 new_i = newmatch.group()
                 new_i = new_i.strip()
                 lista.append(new_i)
-        
-for i in range(20):
+'Retira primeiros paragrafos desnecessarios'        
+for i in range(16):
     lista.pop(0)
-print(lista)
 json_file = open('CIH.json', 'w', encoding="utf-8")
 
-string = ''
+'Serve para verificar fim de ligacao de palavras com traducao'
+lista.append('')
+
 lista_usados = []
 dict = {}
+
+'Liga as palavras com traducao correta'
 for i in lista:
-    if i in lista_usados:
+    string = ''
+    if i in lista_usados or i == ':':
         print(1)
     else:
         pos = lista.index(i)
-        a = lista[pos+1]
-        match1 = re.search(r'(\*){1}', a)
-        if match1:
-            a = lista[pos+2]
-            dict[i] = a
-            lista_usados.append(a)
+        if lista[pos+1] == '':
+            break
         else:
-            match2 = re.search(r'(\*){1}', lista[pos+1])
-            if match2 == None:
-                a = lista[pos+1]
-                lista_usados.append(a)
-                match3 = re.search(r'(^[a-z])|^[\(]|Humana|Salud|Paciente|Estreptococcica|Adquirida|Papanicolau|Vaccine', lista[pos+2])
-                if match3:
-                    match4 = re.search(r'(^[a-z])|^[\(]|Humana|Salud|Paciente|Estreptococcica|Adquirida|Papanicolau|Vaccine', lista[pos+3])
-                    lista_usados.append(lista[pos+2])
-                    if match4:
-                        match5 = re.search(r'(^[a-z])|^[\(]|Humana|Salud|Paciente|Estreptococcica|Adquirida|Papanicolau|Vaccine', lista[pos+4])
-                        lista_usados.append(lista[pos+3])
-                    else:
-                        string = lista[pos+1] + lista[pos+2] + lista[pos+3]
-                        dict[i] = string
-                else:
-                    string = lista[pos+1] + lista[pos+2]
-                    dict[i] = string
+            a = lista[pos+1]
+            lista_usados.append(lista[pos+1])
+            if lista[pos+2] == '':
+                break
             else:
-                dict[i] = lista[pos+1]
-                
-                
+                match = re.search(r'(^[a-z])|^[\(\)]|^(Humana)|^(Salud)|^(Paciente)|^(Estreptococcica)|^(Adquirida)|^(Papanicolau)|^(Vaccine)', lista[pos+2])
+                if match:
+                    lista_usados.append(lista[pos+2])
+                    if lista[pos+3] == '':
+                        break
+                    else:
+                        match = re.search(r'(^[a-z])|^[\(\)]|^(Humana)|^(Salud)|^(Paciente)|^(Estreptococcica)|^(Adquirida)|^(Papanicolau)|^(Vaccine)', lista[pos+3])
+                        if match:
+                            lista_usados.append(lista[pos+3])
+                            if lista[pos+4] == '':
+                                break
+                            else:
+                                match = re.search(r'(^[a-z])|^[\(\)]|^(Humana)|^(Salud)|^(Paciente)|^(Estreptococcica)|^(Adquirida)|^(Papanicolau)|^(Vaccine)', lista[pos+4])
+                                if match:
+                                    lista_usados.append(lista[pos+3])
+                                else:
+                                    string = string + a + lista[pos+2] + lista[pos+3]
+                                    dict[i] = string
+                        else:
+                            string = string +a + lista[pos+2]
+                            dict[i] = string
+                else:
+                    string = string + a
+                    dict[i] = string        
+
+file4 = open('teste', 'w', encoding="utf-8")
+for i in lista_usados:
+    file4.write(i + "\n")
+file4.close()
 
 json.dump(dict, json_file, ensure_ascii=False, indent=4)
 json_file.close()
