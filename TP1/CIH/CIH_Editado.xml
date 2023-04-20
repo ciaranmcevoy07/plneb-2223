@@ -1,5 +1,4 @@
 
-<text top="146" left="108" width="94" height="16" font="5"><b>Please  Note:</b></text>
 <text top="146" left="202" width="612" height="16" font="4">  This  glossary  is  a  work  in  progress.  We  revise  it  periodically  to  include  more  terms. </text>
 <text top="163" left="216" width="598" height="16" font="4">Therefore, it may not contain all the words you will need. If you cannot find a term in this </text>
 <text top="181" left="216" width="598" height="16" font="4">list, please check the resources referenced in the Virtual Library. In addition, if you do not </text>
@@ -10,13 +9,10 @@
 <text top="284" left="216" width="593" height="16" font="4">can record these terms as you encounter them. Bring these terms to the attention of your </text>
 <text top="302" left="216" width="595" height="16" font="4">instructor and fellow students. Your suggestions may help to enrich the linguistic diversity </text>
 <text top="319" left="216" width="110" height="16" font="4">of our glossary.  </text>
-<text top="353" left="108" width="98" height="16" font="5"><b>Arrangement:</b></text>
 <text top="353" left="206" width="608" height="16" font="4">  Most general terms, conditions and complaints are listed first. These should be consulted </text>
 <text top="370" left="216" width="598" height="16" font="4">before going on to the terms that are used in more specific areas of healthcare. All of the </text>
 <text top="388" left="216" width="598" height="16" font="4">terms  are  arranged  in  alphabetical  order.  The  specialties  are  arranged  by  alphabetical </text>
 <text top="405" left="216" width="43" height="16" font="4">order. </text>
-<text top="442" left="108" width="166" height="16" font="5"><b>Health Care Personnel  </b></text>
-<text top="442" left="486" width="236" height="16" font="5"><b>Personal del cuidado de la salud </b></text>
 <text top="463" left="108" width="121" height="16" font="4">Doctor/Physician  </text>
 <text top="463" left="486" width="105" height="16" font="4">Médico, Doctor </text>
 <text top="484" left="108" width="136" height="16" font="4">Attending Physician </text>
@@ -72,8 +68,6 @@
 <text top="1005" left="486" width="322" height="16" font="4">Trabajador Social especializado en psicoterapia </text>
 <text top="1026" left="108" width="76" height="16" font="4">Technician </text>
 <text top="1026" left="486" width="56" height="16" font="4">Técnico </text>
-<text top="111" left="108" width="112" height="16" font="5"><b>Administrative  </b></text>
-<text top="111" left="486" width="121" height="16" font="5"><b>Administrativo/a </b></text>
 <text top="132" left="108" width="166" height="16" font="4">Account Representative  </text>
 <text top="132" left="486" width="180" height="16" font="4">Representante de cuentas </text>
 <text top="153" left="108" width="81" height="16" font="4">Admissions </text>
@@ -250,11 +244,8 @@
 <text top="111" left="108" width="73" height="16" font="4">Workforce </text>
 <text top="111" left="486" width="296" height="16" font="4">Personal, plantilla, mano de obra; población </text>
 <text top="128" left="486" width="117" height="16" font="4">activa de un país </text>
-<text top="184" left="108" width="135" height="16" font="5"><b>Parts Of The Body </b></text>
-<text top="184" left="486" width="132" height="16" font="5"><b>Partes del Cuerpo </b></text>
 <text top="205" left="108" width="112" height="16" font="4">External              </text>
 <text top="205" left="486" width="63" height="16" font="4">Externas </text>
-<text top="226" left="213" width="8" height="16" font="4">: </text>
 <text top="247" left="108" width="58" height="16" font="4">Cheek   </text>
 <text top="247" left="486" width="217" height="16" font="4">Mejilla, cachete, moflete, carrillo </text>
 <text top="268" left="108" width="35" height="16" font="4">Chin </text>
@@ -333,7 +324,6 @@
 <text top="1024" left="486" width="42" height="16" font="4">Úvula </text>
 <text top="1045" left="108" width="112" height="16" font="4">Wisdom Tooth   </text>
 <text top="1045" left="486" width="220" height="16" font="4">Muela del juicio, muela cordal   </text>
-<text top="128" left="146" width="20" height="16" font="4">:   </text>
 <text top="149" left="108" width="68" height="16" font="4">Abdomen </text>
 <text top="149" left="486" width="68" height="16" font="4">Abdomen </text>
 <text top="170" left="108" width="75" height="16" font="4">Abdominal </text>
@@ -715,8 +705,6 @@
 <text top="528" left="486" width="41" height="16" font="4">Vulva </text>
 <text top="549" left="108" width="58" height="16" font="4">Womb   </text>
 <text top="549" left="486" width="90" height="16" font="4">Útero, matriz </text>
-<text top="588" left="108" width="274" height="16" font="5"><b>Common Complaints Or Symptoms:   </b></text>
-<text top="588" left="486" width="207" height="16" font="5"><b>Quejas comunes o síntomas </b></text>
 <text top="609" left="108" width="63" height="16" font="4">Abrasion </text>
 <text top="609" left="486" width="63" height="16" font="4">Abrasión </text>
 <text top="630" left="108" width="58" height="16" font="4">Abuse   </text>
@@ -1059,10 +1047,6 @@
 <text top="422" left="486" width="65" height="16" font="4">Orgasmo </text>
 <text top="443" left="108" width="112" height="16" font="4">Out Of Breath   </text>
 <text top="443" left="486" width="181" height="16" font="4">Sin Aliento, sin respiración </text>
-<text top="464" left="108" width="39" height="16" font="4">Pain (</text>
-<text top="464" left="147" width="161" height="16" font="5"><b>See Pain Words Below</b></text>
-<text top="464" left="309" width="20" height="16" font="4">)   </text>
-<text top="464" left="486" width="44" height="16" font="4">Dolor  </text>
 <text top="485" left="108" width="34" height="16" font="4">Pale </text>
 <text top="485" left="486" width="58" height="16" font="4">Pálido/a </text>
 <text top="506" left="108" width="74" height="16" font="4">Palpitation </text>
@@ -1300,8 +1284,6 @@
 <text top="153" left="486" width="89" height="16" font="4">Preocuparse </text>
 <text top="174" left="108" width="58" height="16" font="4">Wound   </text>
 <text top="174" left="486" width="48" height="16" font="4">Herida </text>
-<text top="213" left="108" width="87" height="16" font="5"><b>Pain Words </b></text>
-<text top="213" left="486" width="130" height="16" font="5"><b>Palabras de dolor </b></text>
 <text top="234" left="108" width="242" height="16" font="4">A Stab Of Pain (Sudden, Brief Pain) </text>
 <text top="234" left="486" width="303" height="16" font="4">Dolor que traspasa, que apuñala, una picada </text>
 <text top="251" left="486" width="165" height="16" font="4">(Dolor Repentino Breve) </text>
@@ -1373,8 +1355,6 @@
 <text top="971" left="486" width="70" height="16" font="4">Palpitante </text>
 <text top="992" left="108" width="82" height="16" font="4">Unbearable </text>
 <text top="992" left="486" width="181" height="16" font="4">Inaguantable, insoportable </text>
-<text top="1031" left="108" width="166" height="16" font="5"><b>Common Procedures:  </b></text>
-<text top="1031" left="486" width="194" height="16" font="5"><b>Procedimientos Comunes: </b></text>
 <text top="111" left="108" width="58" height="16" font="4">Biopsy   </text>
 <text top="111" left="486" width="53" height="16" font="4">Biopsia </text>
 <text top="132" left="108" width="167" height="16" font="4">Blood Pressure Reading </text>
@@ -1400,7 +1380,6 @@
 <text top="342" left="108" width="166" height="16" font="4">Blood Glucose Reading  </text>
 <text top="342" left="486" width="236" height="16" font="4">Medición de los niveles de glucosa </text>
 <text top="363" left="108" width="197" height="16" font="4">Blood Match (Blood Grouping</text>
-<text top="363" left="319" width="10" height="16" font="4">) </text>
 <text top="363" left="486" width="289" height="16" font="4">Compatibilidad sanguínea, aparejamiento/  </text>
 <text top="380" left="486" width="170" height="16" font="4">agrupamiento sanguíneo </text>
 <text top="401" left="108" width="112" height="16" font="4">Blood Plasma   </text>
@@ -1689,9 +1668,6 @@
 <text top="548" left="486" width="146" height="16" font="4">Radiografía/ Rayos X </text>
 <text top="569" left="162" width="89" height="16" font="4">Chest X-Ray </text>
 <text top="569" left="486" width="151" height="16" font="4">Radiografía del pecho </text>
-<text top="608" left="108" width="155" height="16" font="5"><b>Common Instruments</b></text>
-<text top="608" left="263" width="11" height="16" font="4">:  </text>
-<text top="608" left="486" width="167" height="16" font="5"><b>Instrumentos Comunes</b></text>
 <text top="629" left="108" width="58" height="16" font="4">Bedpan  </text>
 <text top="629" left="486" width="131" height="16" font="4">Orinal, cuña, silleta </text>
 <text top="650" left="108" width="58" height="16" font="4">Brace   </text>
@@ -1746,8 +1722,6 @@
 <text top="216" left="486" width="65" height="16" font="4">Andador  </text>
 <text top="237" left="108" width="79" height="16" font="4">Wheelchair </text>
 <text top="237" left="486" width="103" height="16" font="4">Silla de ruedas </text>
-<text top="276" left="108" width="166" height="16" font="5"><b>Common Conditions   </b></text>
-<text top="276" left="486" width="134" height="16" font="5"><b>Estados Comunes </b></text>
 <text top="297" left="108" width="68" height="16" font="4">Abnormal </text>
 <text top="297" left="486" width="60" height="16" font="4">Anormal </text>
 <text top="319" left="108" width="58" height="16" font="4">Acne   </text>
@@ -2120,8 +2094,6 @@
 <text top="445" left="486" width="96" height="16" font="4">Infección viral </text>
 <text top="465" left="108" width="58" height="16" font="4">Worm   </text>
 <text top="465" left="486" width="115" height="16" font="4">Lombriz, gusano </text>
-<text top="505" left="108" width="278" height="16" font="5"><b>Common Treatments And Medications </b></text>
-<text top="505" left="486" width="269" height="16" font="5"><b>Tratamientos Comunes y Medicación </b></text>
 <text top="526" left="108" width="112" height="16" font="4">Allergy Shots   </text>
 <text top="526" left="486" width="209" height="16" font="4">Inyecciones contra las alergias </text>
 <text top="546" left="108" width="112" height="16" font="4">Amphetamines   </text>
@@ -2489,18 +2461,12 @@
 <text top="573" left="486" width="51" height="16" font="4">Bastón </text>
 <text top="594" left="108" width="58" height="16" font="4">Yeast   </text>
 <text top="594" left="486" width="125" height="16" font="4">Levadura // hongo </text>
-<text top="630" left="108" width="88" height="16" font="5"><b>Specialties: </b></text>
-<text top="630" left="486" width="117" height="16" font="5"><b>Especialidades: </b></text>
-<text top="667" left="108" width="166" height="16" font="5"><b>Alternative Medicine   </b></text>
-<text top="667" left="486" width="150" height="16" font="5"><b>Medicina Alternativa </b></text>
 <text top="688" left="108" width="88" height="16" font="4">Acupuncture </text>
 <text top="688" left="486" width="80" height="16" font="4">Acupuntura </text>
 <text top="709" left="108" width="120" height="16" font="4">Herbal Medicines </text>
 <text top="709" left="486" width="133" height="16" font="4">Medicinas herbales </text>
 <text top="730" left="108" width="113" height="16" font="4">Magnet Therapy </text>
 <text top="730" left="486" width="128" height="16" font="4">Terapia magnética </text>
-<text top="769" left="108" width="116" height="16" font="5"><b>Anesthesiology </b></text>
-<text top="769" left="486" width="110" height="16" font="5"><b>Anestesiología </b></text>
 <text top="790" left="108" width="113" height="16" font="4">Anesthesiologist </text>
 <text top="790" left="486" width="98" height="16" font="4">Anestesiólogo </text>
 <text top="811" left="108" width="118" height="16" font="4">Local Anesthesia </text>
@@ -2509,8 +2475,6 @@
 <text top="832" left="486" width="115" height="16" font="4">Manejo del dolor </text>
 <text top="853" left="108" width="124" height="16" font="4">Spinal Anesthesia </text>
 <text top="853" left="486" width="183" height="16" font="4">Anestesia espinal, epidural </text>
-<text top="874" left="108" width="83" height="16" font="5"><b>Cardiology </b></text>
-<text top="874" left="486" width="86" height="16" font="5"><b>Cardiología </b></text>
 <text top="895" left="108" width="112" height="16" font="4">Angina Pectoris  </text>
 <text top="895" left="486" width="294" height="16" font="4">Angina pectoris, angina de pecho, dolor de  </text>
 <text top="913" left="540" width="45" height="16" font="4">pecho </text>
@@ -2603,16 +2567,12 @@
 <text top="884" left="486" width="157" height="16" font="4">Los latidos del corazón </text>
 <text top="905" left="108" width="170" height="16" font="4">Ventricular Septal Defect </text>
 <text top="905" left="432" width="255" height="16" font="4">             Comunicacion interventricular </text>
-<text top="944" left="108" width="112" height="16" font="5"><b>Chiropractice   </b></text>
-<text top="944" left="486" width="101" height="16" font="5"><b>Quiropráctica </b></text>
 <text top="965" left="108" width="76" height="16" font="4">Arch Insert </text>
 <text top="965" left="486" width="156" height="16" font="4">Plantilla para el zapato </text>
 <text top="986" left="108" width="112" height="16" font="4">Arch Support   </text>
 <text top="986" left="486" width="108" height="16" font="4">Sostén del arco </text>
 <text top="1007" left="108" width="87" height="16" font="4">Chiropractor </text>
 <text top="1007" left="486" width="93" height="16" font="4">Quiropráctico </text>
-<text top="128" left="108" width="112" height="16" font="5"><b>Dermatology   </b></text>
-<text top="128" left="486" width="100" height="16" font="5"><b>Dermatología </b></text>
 <text top="149" left="108" width="58" height="16" font="4">Acne   </text>
 <text top="149" left="486" width="38" height="16" font="4">Acné </text>
 <text top="170" left="108" width="58" height="16" font="4">Allergist  </text>
@@ -2701,8 +2661,6 @@
 <text top="1031" left="486" width="95" height="16" font="4">Pantalla solar </text>
 <text top="111" left="108" width="36" height="16" font="4">Wart </text>
 <text top="111" left="486" width="57" height="16" font="4">Verruga </text>
-<text top="150" left="108" width="166" height="16" font="5"><b>Emergency Medicine   </b></text>
-<text top="150" left="486" width="179" height="16" font="5"><b>Medicina de Emergencia </b></text>
 <text top="171" left="108" width="60" height="16" font="4">Acidosis </text>
 <text top="171" left="486" width="60" height="16" font="4">Acidosis </text>
 <text top="192" left="108" width="112" height="16" font="4">Admit a Patient   </text>
@@ -2803,8 +2761,6 @@
 <text top="237" left="486" width="309" height="16" font="4">Escoger priorizando a los más graves // triage </text>
 <text top="258" left="108" width="59" height="16" font="4">Wounds </text>
 <text top="258" left="486" width="56" height="16" font="4">Heridas </text>
-<text top="297" left="108" width="112" height="16" font="5"><b>Endocrinology  </b></text>
-<text top="297" left="486" width="113" height="16" font="5"><b>Endocrinología </b></text>
 <text top="318" left="108" width="112" height="16" font="4">Endocrinologist  </text>
 <text top="318" left="486" width="100" height="16" font="4">Endocrinólogo </text>
 <text top="339" left="108" width="68" height="16" font="4">Glucagon </text>
@@ -2828,8 +2784,6 @@
 <text top="524" left="486" width="163" height="16" font="4">Pérdida de testosterona </text>
 <text top="545" left="108" width="199" height="16" font="4">Thyroid Stimulating Hormone </text>
 <text top="545" left="486" width="236" height="16" font="4">Hormona estimulante de la tiroides </text>
-<text top="584" left="108" width="220" height="16" font="5"><b>ENT (Ear, Nose And Throat)   </b></text>
-<text top="584" left="486" width="325" height="16" font="5"><b>Otorrinolaringología (Oído, Nariz y Garganta) </b></text>
 <text top="605" left="108" width="84" height="16" font="4">Adenopathy </text>
 <text top="605" left="486" width="80" height="16" font="4">Adenopatía </text>
 <text top="626" left="108" width="86" height="16" font="4">Astigmatism </text>
@@ -2876,8 +2830,6 @@
 <text top="1046" left="486" width="115" height="16" font="4">Cuerdas vocales </text>
 <text top="111" left="108" width="116" height="16" font="4">Voice Evaluation </text>
 <text top="111" left="486" width="141" height="16" font="4">Evaluación de la voz </text>
-<text top="150" left="108" width="247" height="16" font="5"><b>Family Medicine/Internal Medicine </b></text>
-<text top="150" left="486" width="265" height="16" font="5"><b>Medicina Familiar // Medicina Interna </b></text>
 <text top="171" left="108" width="304" height="16" font="4">Aids (Acquired Immunodeficiency Syndrome) </text>
 <text top="171" left="486" width="270" height="16" font="4">Sida (Síndrome de la Inmunodeficiencia </text>
 <text top="188" left="486" width="72" height="16" font="4">Adquirida) </text>
@@ -2975,8 +2927,6 @@
 <text top="216" left="486" width="52" height="16" font="4">Whisky </text>
 <text top="237" left="108" width="166" height="16" font="4">You Are At Risk For HIV  </text>
 <text top="237" left="486" width="219" height="16" font="4">Tienes riesgo de contraer el VIH </text>
-<text top="276" left="108" width="129" height="16" font="5"><b>Gastroenterology </b></text>
-<text top="276" left="486" width="133" height="16" font="5"><b>Gastroenterología </b></text>
 <text top="297" left="108" width="85" height="16" font="4">Appendicitis </text>
 <text top="297" left="486" width="76" height="16" font="4">Apendicitis </text>
 <text top="318" left="108" width="88" height="16" font="4">Cholecystitis </text>
@@ -3023,8 +2973,6 @@
 <text top="738" left="486" width="176" height="16" font="4">Materia fecal, excremento </text>
 <text top="759" left="108" width="58" height="16" font="4">Ulcer   </text>
 <text top="759" left="486" width="47" height="16" font="4">Úlcera </text>
-<text top="798" left="108" width="121" height="16" font="5"><b>General Surgery </b></text>
-<text top="798" left="486" width="115" height="16" font="5"><b>Cirugía General </b></text>
 <text top="819" left="108" width="78" height="16" font="4">Anesthesia </text>
 <text top="819" left="486" width="70" height="16" font="4">Anestesia </text>
 <text top="840" left="108" width="76" height="16" font="4">Bone Graft </text>
@@ -3061,8 +3009,6 @@
 <text top="216" left="486" width="60" height="16" font="4">Cirujano </text>
 <text top="237" left="108" width="75" height="16" font="4">Transplant </text>
 <text top="237" left="486" width="83" height="16" font="4">Transplante </text>
-<text top="276" left="108" width="67" height="16" font="5"><b>Genetics </b></text>
-<text top="276" left="486" width="67" height="16" font="5"><b>Genética </b></text>
 <text top="297" left="108" width="122" height="16" font="4">Abnormal Finding </text>
 <text top="297" left="486" width="170" height="16" font="4">Descubrimiento anormal  </text>
 <text top="318" left="108" width="60" height="16" font="4">Abortion </text>
@@ -3348,16 +3294,8 @@
 <text top="447" left="486" width="51" height="16" font="4">Uracilo </text>
 <text top="468" left="108" width="123" height="16" font="4">White Blood Cells </text>
 <text top="468" left="486" width="194" height="16" font="4">Glóbulos blancos, leucocitos </text>
-<text top="489" left="108" width="74" height="16" font="5"><b>Geriatrics </b></text>
-<text top="489" left="486" width="65" height="16" font="5"><b>Geriatría </b></text>
 <text top="510" left="108" width="81" height="16" font="4">Geriatrician </text>
 <text top="510" left="486" width="58" height="16" font="4">Geriatra </text>
-<text top="549" left="108" width="220" height="16" font="5"><b>Gynecology- See Obstetrics   </b></text>
-<text top="549" left="486" width="213" height="16" font="5"><b>Ginecología – Ver Obstetricia </b></text>
-<text top="588" left="108" width="286" height="16" font="5"><b>Internal Medicine –See Family Medicine </b></text>
-<text top="588" left="486" width="293" height="16" font="5"><b>Medicina Interna – Ver Medicina Familiar </b></text>
-<text top="627" left="108" width="112" height="16" font="5"><b>Mental Health   </b></text>
-<text top="627" left="486" width="96" height="16" font="5"><b>Salud Mental </b></text>
 <text top="648" left="108" width="90" height="16" font="4">A Hit Of Acid </text>
 <text top="648" left="486" width="195" height="16" font="4">Tomarse o meterse un ácido </text>
 <text top="669" left="108" width="71" height="16" font="4">Abrasions </text>
@@ -3389,7 +3327,6 @@
 <text top="942" left="108" width="62" height="16" font="4">Agitation </text>
 <text top="942" left="486" width="65" height="16" font="4">Agitación </text>
 <text top="963" left="162" width="166" height="16" font="4">Psychomotor Agitation   </text>
-<text top="963" left="432" width="9" height="16" font="4">` </text>
 <text top="963" left="486" width="146" height="16" font="4">Agitación psicomotriz </text>
 <text top="984" left="108" width="89" height="16" font="4">Agoraphobia </text>
 <text top="984" left="486" width="76" height="16" font="4">Agorafobia </text>
@@ -3473,9 +3410,9 @@
 <text top="846" left="486" width="78" height="16" font="4">Conciencia </text>
 <text top="867" left="108" width="74" height="16" font="4">Conscious </text>
 <text top="867" left="486" width="71" height="16" font="4">Conciente </text>
+<text top="888" left="108" width="112" height="16" font"4">Consciousness   </text>
 <text top="888" left="486" width="78" height="16" font="4">Conciencia </text>
 <text top="909" left="108" width="80" height="16" font="4">Constricted </text>
-<text top="909" left="486" width="84" height="16" font="4">Constricto/a </text>
 <text top="930" left="108" width="112" height="16" font="4">Contact Person  </text>
 <text top="930" left="486" width="141" height="16" font="4">Persona de contacto </text>
 <text top="951" left="108" width="85" height="16" font="4">Cooperative </text>
@@ -3940,8 +3877,6 @@
 <text top="111" left="108" width="75" height="16" font="4">Withdrawn </text>
 <text top="111" left="486" width="244" height="16" font="4">Aislado, apartado, retirado, retraído, </text>
 <text top="128" left="486" width="87" height="16" font="4">abandonado </text>
-<text top="167" left="108" width="87" height="16" font="5"><b>Nephrology </b></text>
-<text top="167" left="486" width="78" height="16" font="5"><b>Nefrología </b></text>
 <text top="188" left="108" width="168" height="16" font="4">Creatinine Measurement </text>
 <text top="188" left="486" width="147" height="16" font="4">Medida de la creatina </text>
 <text top="209" left="108" width="136" height="16" font="4">Descended Bladder </text>
@@ -3958,8 +3893,6 @@
 <text top="314" left="486" width="69" height="16" font="4">Nefrólogo </text>
 <text top="335" left="108" width="112" height="16" font="4">Renal Disease   </text>
 <text top="335" left="486" width="123" height="16" font="4">Enfermedad renal </text>
-<text top="391" left="108" width="78" height="16" font="5"><b>Neurology </b></text>
-<text top="391" left="486" width="82" height="16" font="5"><b>Neurología </b></text>
 <text top="412" left="108" width="69" height="16" font="4">Blackouts </text>
 <text top="412" left="486" width="215" height="16" font="4">Lagunas mentales //  desmayos </text>
 <text top="433" left="108" width="171" height="16" font="4">Carpal Tunnel Syndrome </text>
@@ -3970,7 +3903,7 @@
 <text top="475" left="486" width="91" height="16" font="4">Craneotomía </text>
 <text top="496" left="108" width="136" height="16" font="4">Electric Stimulation  </text>
 <text top="496" left="486" width="149" height="16" font="4">Estimulación eléctrica </text>
-<text top="517" left="108" width="342" height="16" font="4">(TENS) Transcutaneous Electric Nerve Stimulation </text>
+<text top="517" left="108" width="342" height="16" font="4"> Transcutaneous Electric Nerve Stimulation </text>
 <text top="517" left="486" width="310" height="16" font="4">Estimulación Nerviosa Eléctrica Transcutánea </text>
 <text top="538" left="108" width="173" height="16" font="4">Electromyelogram (EMG) </text>
 <text top="538" left="486" width="177" height="16" font="4">Electromielograma (EMG) </text>
@@ -3992,8 +3925,6 @@
 <text top="706" left="486" width="170" height="16" font="4">Sensación de hormigueo </text>
 <text top="727" left="108" width="166" height="16" font="4">What Do You Sense?   </text>
 <text top="727" left="492" width="188" height="16" font="4">Qué percibe? ¿Qué siente? </text>
-<text top="766" left="108" width="67" height="16" font="5"><b>Nutritio n </b></text>
-<text top="766" left="486" width="70" height="16" font="5"><b>Nutrición </b></text>
 <text top="787" left="108" width="112" height="16" font="4">Carbohydrates   </text>
 <text top="787" left="486" width="245" height="16" font="4">Carbohidratos, Hidratos de Carbono </text>
 <text top="809" left="108" width="112" height="16" font="4">Carbon dioxide   </text>
@@ -4020,8 +3951,6 @@
 <text top="1018" left="486" width="70" height="16" font="4">Vitaminas </text>
 <text top="1039" left="108" width="128" height="16" font="4">Vitamin Deficiency </text>
 <text top="1039" left="486" width="166" height="16" font="4">Deficiencia vitamínica   </text>
-<text top="128" left="108" width="169" height="16" font="5"><b>Obstetrics/Gynegology </b></text>
-<text top="128" left="486" width="184" height="16" font="5"><b>Obstetricia // Ginecología </b></text>
 <text top="149" left="108" width="60" height="16" font="4">Abortion </text>
 <text top="149" left="486" width="48" height="16" font="4">Aborto </text>
 <text top="170" left="162" width="166" height="16" font="4">Spontaneous/Accidental  </text>
@@ -4308,8 +4237,6 @@
 <text top="279" left="486" width="61" height="16" font="4">Destetar </text>
 <text top="300" left="108" width="112" height="16" font="4">Yeast Infection   </text>
 <text top="300" left="486" width="128" height="16" font="4">Levadura / hongos </text>
-<text top="356" left="108" width="73" height="16" font="5"><b>Oncology </b></text>
-<text top="356" left="486" width="77" height="16" font="5"><b>Oncología </b></text>
 <text top="377" left="108" width="122" height="16" font="4">Adjuvant Therapy </text>
 <text top="377" left="486" width="128" height="16" font="4">Terapia adyuvante </text>
 <text top="398" left="108" width="134" height="16" font="4">Alternative Therapy </text>
@@ -4386,8 +4313,6 @@
 <text top="195" left="486" width="125" height="16" font="4">Terapia quirúrgica </text>
 <text top="216" left="108" width="58" height="16" font="4">Tumor   </text>
 <text top="216" left="486" width="47" height="16" font="4">Tumor </text>
-<text top="272" left="108" width="114" height="16" font="5"><b>Ophthalmology </b></text>
-<text top="272" left="486" width="96" height="16" font="5"><b>Oftalmología </b></text>
 <text top="293" left="108" width="78" height="16" font="4">Acuity Test </text>
 <text top="293" left="486" width="203" height="16" font="4">Prueba de agudeza, precisión </text>
 <text top="314" left="108" width="86" height="16" font="4">Astigmatism </text>
@@ -4450,8 +4375,6 @@
 <text top="902" left="486" width="177" height="16" font="4">Prueba de agudeza visual </text>
 <text top="923" left="108" width="89" height="16" font="4">Visual Fields </text>
 <text top="923" left="486" width="118" height="16" font="4">Campos visuales </text>
-<text top="962" left="108" width="242" height="16" font="5"><b>Orthopedics, Orthopedic Surgery </b></text>
-<text top="962" left="486" width="218" height="16" font="5"><b>Ortopedia, Cirugía Ortopédica </b></text>
 <text top="983" left="108" width="58" height="16" font="4">Arthritis  </text>
 <text top="983" left="486" width="46" height="16" font="4">Artritis </text>
 <text top="1004" left="108" width="58" height="16" font="4">Bunions </text>
@@ -4490,8 +4413,6 @@
 <text top="384" left="486" width="166" height="16" font="4">Tensiones, torceduras   </text>
 <text top="405" left="108" width="63" height="16" font="4">To Stitch </text>
 <text top="405" left="486" width="234" height="16" font="4">Poner puntos, dar puntadas, coser </text>
-<text top="444" left="108" width="76" height="16" font="5"><b>Pediatrics </b></text>
-<text top="444" left="486" width="67" height="16" font="5"><b>Pediatría </b></text>
 <text top="465" left="108" width="83" height="16" font="4">Chickenpox </text>
 <text top="465" left="486" width="58" height="16" font="4">Varicela </text>
 <text top="486" left="108" width="58" height="16" font="4">Colic   </text>
@@ -4506,7 +4427,6 @@
 <text top="570" left="486" width="85" height="16" font="4">Anca, grupa </text>
 <text top="591" left="108" width="344" height="16" font="4">Dpt (Diphtheria and Tetanus Toxoids and Pertussis </text>
 <text top="591" left="486" width="274" height="16" font="4">Dpt Difteria- Pertussis-Tetanos (Vacuna) </text>
-<text top="608" left="108" width="62" height="16" font="4">Vaccine) </text>
 <text top="629" left="108" width="61" height="16" font="4">Dyslexia </text>
 <text top="629" left="486" width="56" height="16" font="4">Dislexia </text>
 <text top="650" left="108" width="116" height="16" font="4">Eggs Of a Louse </text>
@@ -4549,8 +4469,6 @@
 <text top="1028" left="486" width="98" height="16" font="4">Mojar la cama </text>
 <text top="111" left="108" width="120" height="16" font="4">Whooping Cough </text>
 <text top="111" left="486" width="173" height="16" font="4">Tos ferina, tos convulsiva </text>
-<text top="150" left="108" width="64" height="16" font="5"><b>Podiatry </b></text>
-<text top="150" left="486" width="149" height="16" font="5"><b>Podiatría, Podología </b></text>
 <text top="171" left="108" width="112" height="16" font="4">Athlete’s Foot   </text>
 <text top="171" left="486" width="87" height="16" font="4">Pie de atleta </text>
 <text top="192" left="108" width="58" height="16" font="4">Bunion   </text>
@@ -4567,8 +4485,6 @@
 <text top="297" left="486" width="189" height="16" font="4">Uña Enterrada / encarnada  </text>
 <text top="318" left="108" width="121" height="16" font="4">Vascular Disease </text>
 <text top="318" left="486" width="146" height="16" font="4">Enfermedad vascular </text>
-<text top="357" left="108" width="112" height="16" font="5"><b>Pulmonology   </b></text>
-<text top="357" left="486" width="103" height="16" font="5"><b>Pulmonología </b></text>
 <text top="378" left="108" width="274" height="16" font="4">Chronic Pulmonary Obstructive Disease  </text>
 <text top="378" left="486" width="281" height="16" font="4">Enfermedad pulmonar obstructiva crónica </text>
 <text top="399" left="108" width="58" height="16" font="4">Izonizid  </text>
@@ -4601,8 +4517,6 @@
 <text top="672" left="486" width="201" height="16" font="4">Infección respiratoria superior </text>
 <text top="693" left="108" width="112" height="16" font="4">Vital Capacity   </text>
 <text top="693" left="486" width="106" height="16" font="4">Capacidad vital </text>
-<text top="732" left="108" width="76" height="16" font="5"><b>Radiology </b></text>
-<text top="732" left="486" width="80" height="16" font="5"><b>Radiología </b></text>
 <text top="753" left="108" width="127" height="16" font="4">Radiation Therapy </text>
 <text top="753" left="486" width="146" height="16" font="4">Terapia por radiación </text>
 <text top="774" left="108" width="128" height="16" font="4">Radioactive Iodine </text>
@@ -4615,8 +4529,6 @@
 <text top="837" left="486" width="72" height="16" font="4">Radiólogo </text>
 <text top="858" left="108" width="166" height="16" font="4">Radiology Technician   </text>
 <text top="858" left="486" width="147" height="16" font="4">Técnico en radiología </text>
-<text top="897" left="108" width="112" height="16" font="5"><b>Rehabilitation   </b></text>
-<text top="897" left="486" width="106" height="16" font="5"><b>Rehabilitación </b></text>
 <text top="918" left="108" width="187" height="16" font="4">Occupational Rehabilitation </text>
 <text top="918" left="486" width="182" height="16" font="4">Rehabilitación ocupacional </text>
 <text top="939" left="108" width="127" height="16" font="4">Physical Therapist </text>
@@ -4625,8 +4537,6 @@
 <text top="960" left="486" width="81" height="16" font="4">Fisioterapia </text>
 <text top="981" left="108" width="67" height="16" font="4">Therapist </text>
 <text top="981" left="486" width="72" height="16" font="4">Terapeuta </text>
-<text top="1020" left="108" width="112" height="16" font="5"><b>Rheumatology  </b></text>
-<text top="1020" left="486" width="103" height="16" font="5"><b>Reumatología </b></text>
 <text top="1041" left="108" width="58" height="16" font="4">Bursitis  </text>
 <text top="1041" left="486" width="53" height="16" font="4">Bursitis </text>
 <text top="111" left="108" width="190" height="16" font="4">Degernerative Disc Disease </text>
@@ -4655,8 +4565,6 @@
 <text top="342" left="486" width="93" height="16" font="4">Reumatólogo </text>
 <text top="363" left="108" width="112" height="16" font="4">Rheumatology   </text>
 <text top="363" left="486" width="97" height="16" font="4">Reumatología </text>
-<text top="402" left="108" width="90" height="16" font="5"><b>Social Work </b></text>
-<text top="402" left="486" width="106" height="16" font="5"><b>Trabajo Social </b></text>
 <text top="423" left="108" width="85" height="16" font="4">Child Abuse </text>
 <text top="423" left="486" width="156" height="16" font="4">Abuso, maltrato infantil </text>
 <text top="444" left="108" width="64" height="16" font="4">Disability </text>
@@ -4670,8 +4578,6 @@
 <text top="524" left="486" width="65" height="16" font="4">Medicare </text>
 <text top="545" left="108" width="58" height="16" font="4">Shelter   </text>
 <text top="545" left="486" width="200" height="16" font="4">Asilo, amparo, refugio, abrigo </text>
-<text top="584" left="108" width="61" height="16" font="5"><b>Urology </b></text>
-<text top="584" left="486" width="65" height="16" font="5"><b>Urología </b></text>
 <text top="605" left="108" width="166" height="16" font="4">Chronic Renal Failure   </text>
 <text top="605" left="486" width="141" height="16" font="4">Ataque renal crónico </text>
 <text top="626" left="108" width="66" height="16" font="4">Ejaculate </text>
