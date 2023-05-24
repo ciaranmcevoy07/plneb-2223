@@ -3,7 +3,7 @@ import json
 import re
 app = Flask(__name__)
 
-file = open("terms.json")
+file = open("Final.json")
 
 db = json.load(file) 
 file.close()
