@@ -474,7 +474,7 @@
         "ENG": "aerosol",
         "ES": "aerosol"
     },
-    "afasia (motora/ sensorial/ amnéstica/ global)": {
+    "afasia (motora/sensorial/amnéstica/global)": {
         "ENG": "aphasia (motor /sensory/amnesic /global)",
         "ES": "afasia (o afaxia ) (motora, sensorial, amnéstica, global)"
     },
@@ -47065,9 +47065,7 @@
         ]
     },
     "penis": {
-        "escih": [
-            "Pene"
-        ]
+        "desc": "genital masculino"
     },
     "prostate gland": {
         "escih": [
@@ -58198,5 +58196,18 @@
         "ag_desc": [
             "Orifício superior na fossa pterigopalatina que conduz à cavidade nasalmaior parte é formada pelo palatino e a menor pelo esfenóide"
         ]
+    },
+    "caralho": {
+        "desc": "caralho"
+    },
+    "puta": {
+        "desc": "puta",
+        "ENG": "",
+        "ES": ""
+    },
+    "cagar": {
+        "desc": "defecar",
+        "ENG": "shitting",
+        "ES": "mierda"
     }
 }

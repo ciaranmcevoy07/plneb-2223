@@ -2,17 +2,70 @@
 
 
 {% block body %}
-
+<style>
+    .btn-wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+</style>
 <h3>
-    Designation: {{designation}}
+    {{designation}}<div class="btn-wrapper">
+        <button type="button" class="btn btn-warning" >Edit</button>
+    </div>
 </h3>
 
 <h5>
-    Description: {{value["desc"]}}
+    Description: {{value["desc"]}}<div class="btn-wrapper">
+        <button type="button" class="btn btn-warning" onclick="toggleEdit()">Edit</button>
+    </div>
 </h5>
 
 <h5>
-    EN: {{value["desc"]}}
+    dmte_desc: {{value["dmte_desc"]}}<div class="btn-wrapper">
+        <button type="button" class="btn btn-warning" onclick="">Edit</button>
+    </div>
+</h5>
+
+<h5>
+    dtme_desc: {{value["dtme_desc"]}}<div class="btn-wrapper">
+        <button type="button" class="btn btn-warning" onclick="">Edit</button>
+    </div>
+</h5>
+
+<h5>
+    ENG: {{value["ENG"]}}<div class="btn-wrapper">
+        <button type="button" class="btn btn-warning" onclick="">Edit</button>
+    </div>
+    
+</h5>
+
+<h5>
+    ES: {{value["ES"]}}<div class="btn-wrapper">
+        <button type="button" class="btn btn-warning" onclick="">Edit</button>
+    </div>
+    
+</h5>
+
+<h5>
+    ag_desc: {{value["ag_desc"]}}<div class="btn-wrapper">
+        <button type="button" class="btn btn-warning" onclick="">Edit</button>
+    </div>
+    
+</h5>
+
+<h5>
+    escih: {{value["escih"]}}<div class="btn-wrapper">
+        <button type="button" class="btn btn-warning" onclick="">Edit</button>
+    </div>
+    
+</h5>
+
+<h5>
+    en: {{value["en"]}}<div class="btn-wrapper">
+        <button type="button" class="btn btn-warning" onclick="">Edit</button>
+    </div>
+    
 </h5>
 
 

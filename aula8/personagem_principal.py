@@ -3,9 +3,7 @@ import re
 from collections import Counter
 import sys
 
-file = sys.argv[1]
-
-file = open(file, 'r', encoding='utf8')
+file = open("Books/harry_potter_pedra_filosofal.txt", 'r', encoding='utf8')
 book = file.read()
 
 nlp = spacy.load('pt_core_news_lg')

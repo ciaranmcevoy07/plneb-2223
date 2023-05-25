@@ -13,7 +13,7 @@ function deleteTerm(designation){
             console.error('Error:', error);
         }
     })
-
 }
+
 
 

@@ -3,7 +3,7 @@ import json
 import re
 app = Flask(__name__)
 
-file = open("Final.json")
+file = open("Final.json", "r", encoding="utf-8")
 
 db = json.load(file) 
 file.close()
@@ -25,18 +25,18 @@ def term(t):
 
 @app.route("/table")
 def table():
-    return render_template("table.html")
+    lista = []
+    for designation, description in db.items():
+        lista.append((designation,description))
+    return render_template("table.html", lista=lista)
 
 @app.route("/terms/search")
 def search():
-
     text = request.args.get("text")
     lista = []
     if text:
         for designation, description in db.items():
-            #if text in description["desc"] or text in designation:
-            #if text.lower() in description["desc"].lower() or text.lower() in designation.lower():
-            if re.search(text,designation,flags=re.I) or re.search(text,description["desc"],flags=re.I): 
+            if re.search(text,designation,flags=re.I): 
                 lista.append((designation,description))
     return render_template("search.html",matched = lista)
 
@@ -45,14 +45,16 @@ def addTerm():
     print(request.form)
     designation = request.form["designation"]
     description = request.form["description"]
+    english = request.form["english"]
+    spanish = request.form["spanish"]
 
     if designation not in db:
         info_message = "Term Added correctly"
     else:
         info_message = "Term Updated correctly!"
 
-    db[designation] = {"desc":description}
-    file_save = open("terms.json","w")
+    db[designation] = {"desc":description, "ENG":english, "ES":spanish}
+    file_save = open("Final.json", "w", encoding="utf-8")
     json.dump(db,file_save, ensure_ascii=False, indent=4)
     file_save.close()
 
@@ -67,11 +69,16 @@ def deleteTerm(designation):
         print(designation)
         del db[designation]
         print(db.get(designation))
-        file_save = open("terms.json","w")
+        file_save = open("Final.json","w")
         json.dump(db,file_save, ensure_ascii=False, indent=4)
         file_save.close()
         
     return {designation: {"desc":desc}}
+
+@app.route("/edit/<designation>")
+def editTerm(designation):
+
+    return render_template("editTerm.html", designations=db.keys())
 
 
 app.run(host="localhost", port=3000, debug=True)
