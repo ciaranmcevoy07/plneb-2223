@@ -4,34 +4,56 @@ from collections import Counter
 import sys
 import json
 
-file = open("Final.json", "r", encoding="utf-8")
-db = file.read()
-file.close()
-file = open("Final.json", "r", encoding="utf-8")
-dic = json.load(file)
+file = open("teste1.json", "r", encoding="utf-8")
+final = json.load(file)
 file.close()
 
+file = open("teste2.json", "r", encoding="utf-8")
+mdsaude = json.load(file)
+file.close()
+
+
+dict = {}
 nlp = spacy.load('pt_core_news_lg')
-nlp.max_length = 3000000
-av = nlp(db)
-# Get word vectors for a target word
-target_doc = nlp(db)
+for i in final.keys():
+    fi = nlp(i)
+    text = ""
+    for j in mdsaude.keys():
+        md = nlp(j)
+        score = fi.similarity(md)
+        if score > 0.6:
+            text += j+";"
+    dict[i] = text
 
-# Iterate over words in the vocabulary
+for i in final.keys():
+    fi = nlp(i)
+    if i in dict:
+        text = dict[i]
+    else:
+        text = ""
+    for j in final.keys():
+        fi2 = nlp(j)
+        score = fi.similarity(fi2)
+        if score > 0.6:
+            text += j+";"
+    dict[i] = text
 
-similar_words = []
-# for i in dic.keys():
-#     target_word = nlp(i)
-target_word = nlp("abdomen")
-for token in target_doc:
-    if token.text != target_word:
-        similarity = nlp(target_word).similarity(token)
-        similar_words.append((token.text, similarity))
-        print(token.text)
+for i in mdsaude.keys():
+    md = nlp(i)
+    if i in dict:
+        text = dict[i]
+    else:
+        text = ""
+    for j in mdsaude.keys():
+        md2 = nlp(j)
+        score = md.similarity(md2)
+        if score > 0.6:
+            text += j+";"
+    dict[i] = text
+    
+file = open("relacoes.json", "w", encoding="utf-8")
+json.dump(dict,file, ensure_ascii=False, indent = 4)
+file.close()
 
-# Sort similar words based on similarity score
-similar_words = sorted(similar_words, key=lambda x: x[1], reverse=True)
 
-# Print the similar words
-for word, similarity in similar_words:
-    print(word, similarity)
+
