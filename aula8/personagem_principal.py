@@ -13,6 +13,7 @@ counter = Counter()
 
 names = []
 locations = []
+
 for s in av.sents:
     for ent in s.ents:
         if ent[0].ent_type_ == "PER":
