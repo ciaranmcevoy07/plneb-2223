@@ -4,11 +4,11 @@ from collections import Counter
 import sys
 import json
 
-file = open("Final.json", "r", encoding="utf-8")
+file = open("Original.json", "r", encoding="utf-8")
 final = json.load(file)
 file.close()
 
-file = open("mdsaude.json", "r", encoding="utf-8")
+file = open("mdsaudeOriginal.json", "r", encoding="utf-8")
 mdsaude = json.load(file)
 file.close()
 
@@ -41,7 +41,7 @@ for i in mdsaude.keys():
     else:
         mdsaude[i] = {"relacoes_sim" :text}
     
-file2 = open("mdsaude2.json", "w", encoding="utf-8")
+file2 = open("mdsaude.json", "w", encoding="utf-8")
 json.dump(mdsaude,file2, ensure_ascii=False, indent = 4)
 file2.close()
 

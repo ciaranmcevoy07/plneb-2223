@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<form action="/categorias" method="GET">
+    <div class="mb-3">
+      <label class="form-label">Insert Category:</label>
+      <input type="text" class="form-control" name="text">
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+  </form>
+
+  <table id="example" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Categorias</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for d in c %}
+        <tr>
+            <td>{{d}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
+  <ul>
+    {% for item in t %}
+      <li> <b> <a href="/term/{{item}}">{{item}}</a> </b> </li>
+    {% endfor %}
+  </ul>
+  
+
+{% endblock %}

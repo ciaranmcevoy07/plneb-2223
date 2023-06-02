@@ -62,6 +62,6 @@ for u, t in zip(listaurls, listaterms):
 
 
 
-file = open("mdsaude.json", "w", encoding="utf-8")
+file = open("mdsaudeOriginal.json", "w", encoding="utf-8")
 json.dump(dict,file, ensure_ascii=False, indent = 4)
 file.close()
